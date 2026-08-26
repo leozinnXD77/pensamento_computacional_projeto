@@ -30,57 +30,65 @@ uma experiência satisfatória.)
 
  '''
 
-print('-' * 48 + '\n')
-print("Bem-vindo ao sistema de menu de cortes!","\n") 
+ print('-' * 48 + '\n')
+ print("Bem-vindo ao sistema de menu de cortes!","\n") 
 
-print("Esses são todas as opções: \n")
+ print("Esses são todas as opções: \n")
 
-print("1 - Cadastrar corte\n")
-print("2 - Listar cortes\n")
-print("3 - realizar agendamento\n")
-print("0 - Sair do sistema\n")
+ print("1 - Cadastrar corte\n")
+ print("2 - Listar cortes\n")
+ print("3 - realizar agendamento\n")
+ print("0 - Sair do sistema\n")
  
-print('-' * 48 + '\n')
+ print('-' * 48 + '\n')
 
 opcao = int(input('escolha sua opção: '))
 
 if opcao == 1:
     print("cadastrando cortes...")
-
-    if c1_nome == "1":
-        c1_nome = input("digite o nome do corte: ")
-        c1_estoque = int(input("coloque a quantidade em estoque: "))
-        c1_preco = float(input("coloque o preço do corte: "))
-        c1_descricao = input("descreva o corte: ")
-        print(f"✂corte {c1_nome} cadastrado com sucesso na lista 1!✂")
+    
+    c1_nome = input("digite o nome do corte: ")
+    c1_estoque = int(input("coloque a quantidade em estoque: "))
+    c1_preco = float(input("coloque o preço do corte: "))
+    c1_descricao = input("descreva o corte: ")
+    print(f"✂corte {c1_nome} cadastrado com sucesso na lista 1!✂")
  
-    elif c2_nome == "1":
-        c2_nome = input("digite o nome do corte: ")
-        c2_estoque = int(input("coloque a quantidade em estoque: "))
-        c2_preco = float(input("coloque o preço do corte: "))
-        c2_descricao = input("descreva o corte: ")
-        print(f"✂corte {c2_nome} cadastrado com sucesso na lista 2!✂")
+if opcao == 1:
+    print("cadastrando cortes...")
 
-    elif c3_nome == "1":
-        c3_nome = input("digite o nome do corte: ")
-        c3_estoque = int(input("coloque a quantidade em estoque: "))
-        c3_preco = float(input("coloque o preço do corte: "))
-        c3_descricao = input("descreva o corte: ")
-        print(f"✂corte {c3_nome} cadastrado com sucesso na lista 3!✂")
+    c2_nome = input("digite o nome do corte: ")
+    c2_estoque = int(input("coloque a quantidade em estoque: "))
+    c2_preco = float(input("coloque o preço do corte: "))
+    c2_descricao = input("descreva o corte: ")
+    print(f"✂corte {c2_nome} cadastrado com sucesso na lista 2!✂")
 
-    elif c4_nome == "1":
-        c4_nome = input("digite o nome do corte: ")
-        c4_estoque = int(input("coloque a quantidade em estoque: "))
-        c4_preco = float(input("coloque o preço do corte: "))
-        c4_descricao = input("descreva o corte: ")
-        print(f"✂corte {c4_nome} cadastrado com sucesso na lista 4!✂")
+if opcao == 1:
+    print("cadastrando cortes...")
 
-    elif c5_nome == "1":
-        c5_nome = input("digite o nome do corte: ")
-        c5_estoque = int(input("coloque a quantidade em estoque: "))
-        c5_preco = float(input("coloque o preço do corte: "))
-        c5_descricao = input("descreva o corte: ")
-        print(f"✂corte {c5_nome} cadastrado com sucesso na lista 5!✂")
+    c3_nome = input("digite o nome do corte: ")
+    c3_estoque = int(input("coloque a quantidade em estoque: "))
+    c3_preco = float(input("coloque o preço do corte: "))
+    c3_descricao = input("descreva o corte: ")
+    print(f"✂corte {c3_nome} cadastrado com sucesso na lista 3!✂")
 
-    else: 
-        print("opção inválida, tente novamente!")
+if opcao == 1:
+    print("cadastrando cortes...")
+
+    c4_nome = input("digite o nome do corte: ")
+    c4_estoque = int(input("coloque a quantidade em estoque: "))
+    c4_preco = float(input("coloque o preço do corte: "))
+    c4_descricao = input("descreva o corte: ")
+    print(f"✂corte {c4_nome} cadastrado com sucesso na lista 4!✂")
+
+if opcao == 1:
+    print("cadastrando cortes...")
+
+    c5_nome = input("digite o nome do corte: ")
+    c5_estoque = int(input("coloque a quantidade em estoque: "))
+    c5_preco = float(input("coloque o preço do corte: "))
+    c5_descricao = input("descreva o corte: ")
+    print(f"✂corte {c5_nome} cadastrado com sucesso na lista 5!✂")
+
+else: 
+    print("opção inválida, tente novamente!")
+break
